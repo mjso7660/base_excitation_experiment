@@ -3,26 +3,14 @@
 ## Arduino Uno
 
   Brown: 5V
-  
-  
   Blue: 0
-  
-  
   A: black
-  
-  
   B: White
-  
-  
   Z: Orange
 
 ## Encoder
 1024 pulses for every turn.
-
-
 Counts pulses and calculates the speed every 30 pulses.
-
-
 Outpus radian per second
 
 ## Motor
