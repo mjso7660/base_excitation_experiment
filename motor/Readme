@@ -1,1 +1,29 @@
+# Arduino code for tuned motor with encoder.
 
+## Arduino Uno
+
+  Brown: 5V
+  
+  
+  Blue: 0
+  
+  
+  A: black
+  
+  
+  B: White
+  
+  
+  Z: Orange
+
+## Encoder
+1024 pulses for every turn.
+
+
+Counts pulses and calculates the speed every 30 pulses.
+
+
+Outpus radian per second
+
+## Motor
+K_p = 100, K_d = 10, K_i = 1 give decent control over varying m, c ,k.
